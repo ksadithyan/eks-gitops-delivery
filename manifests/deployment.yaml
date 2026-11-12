@@ -23,9 +23,9 @@ spec:
         - containerPort: 9898
         env:
         - name: PODINFO_UI_COLOR
-          value: "#2563eb"
+          value: "#9333ea"
         - name: PODINFO_UI_MESSAGE
-          value: "Hello from STAGING! ARGO ROLLOUT CANARY DEPLOYMENT V1 - BLUE"
+          value: "Hello from STAGING! ARGO ROLLOUT CANARY DEPLOYMENT V2 - PURPLE"
   strategy:
     canary:
       steps:
